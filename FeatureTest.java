@@ -1,3 +1,1 @@
-public class FeatureTest {
-    /* TODO: example */
-}
+public class FeatureTest {}
