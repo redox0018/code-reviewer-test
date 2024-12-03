@@ -6,6 +6,7 @@ public class FeatureTest {
     public int square(int variable){
         String str = null;
         System.out.println(str.length());
+        str = "fj";
         return variable * variable;
     }
 }
