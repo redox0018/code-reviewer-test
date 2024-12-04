@@ -16,6 +16,8 @@ public class Test {
         log.info("Tax Rate: {}%", (taxRate * 100));
         log.info("Annual Tax Paid: {}", annualTax);
         log.info("Net Annual Salary: {}", netSalary);
+        String string = null;
+        log.info(string.lenght());
     }
 
     private static double getTaxRate(double monthlySalary) {
