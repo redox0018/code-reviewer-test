@@ -5,6 +5,8 @@ public class FeatureTest {
     public static void main(String[] args) {
         log.info("Hello, World!");
         log.info("More");
+        String string = null;
+        log.info(string.lenght());
     }
 
     public int square(int variable){
