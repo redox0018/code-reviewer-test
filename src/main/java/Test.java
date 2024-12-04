@@ -10,7 +10,8 @@ public class Test {
         double taxRate = getTaxRate(monthlySalary);
         double annualTax = principal * taxRate;
         double netSalary = principal - annualTax;
-
+        String string = null;
+        log.info(String.valueOf(string.length()));
         // Output details using slf4j
         log.info("Monthly Salary: {}", monthlySalary);
         log.info("Tax Rate: {}%", (taxRate * 100));

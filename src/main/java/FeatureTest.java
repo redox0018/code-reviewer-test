@@ -7,6 +7,8 @@ public class FeatureTest {
     }
 
     public int square(int variable){
+        String string = null;
+        log.info(String.valueOf(string.length()));
         return variable * variable;
     }
 }
